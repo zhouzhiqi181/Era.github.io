@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXO - Kings of K-Pop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(to bottom, #0a0a2a, #1a1a4a);
+            color: white;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            color: #ffcc00;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        h2 {
+            font-size: 2rem;
+            color: #ffcc00;
+            margin: 30px 0 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ffcc00;
+        }
+        
+        h3 {
+            color: #ff6699;
+            margin: 15px 0 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #ff6699;
+            margin-bottom: 30px;
+        }
+        
+        .section {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .members {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .member {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .discography {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .album {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        
+        .highlight {
+            color: #ffcc00;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            h2 {
+                font-size: 1.6rem;
+            }
+            
+            .members, .discography {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>EXO</h1>
+            <p class="subtitle">Kings of K-Pop</p>
+        </header>
+        
+        <div class="section">
+            <h2>About EXO</h2>
+            <p>EXO is a South Korean-Chinese boy band formed by SM Entertainment in 2011 and debuted in 2012. The group consists of nine members: Xiumin, Suho, Lay, Baekhyun, Chen, Chanyeol, D.O., Kai, and Sehun.</p>
+            <p>EXO's name comes from the word "exoplanet," and their concept incorporates superpowers and space themes. They are one of the most successful K-pop groups, having sold over 100 million records worldwide.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Members</h2>
+            <div class="members">
+                <div class="member">
+                    <h3>Xiumin</h3>
+                    <p>Lead Vocalist, Lead Dancer</p>
+                </div>
+                <div class="member">
+                    <h3>Suho</h3>
+                    <p>Leader, Lead Vocalist</p>
+                </div>
+                <div class="member">
+                    <h3>Lay</h3>
+                    <p>Main Dancer, Sub Vocalist</p>
+                </div>
+                <div class="member">
+                    <h3>Baekhyun</h3>
+                    <p>Main Vocalist</p>
+                </div>
+                <div class="member">
+                    <h3>Chen</h3>
+                    <p>Main Vocalist</p>
+                </div>
+                <div class="member">
+                    <h3>Chanyeol</h3>
+                    <p>Main Rapper, Sub Vocalist</p>
+                </div>
+                <div class="member">
+                    <h3>D.O.</h3>
+                    <p>Main Vocalist</p>
+                </div>
+                <div class="member">
+                    <h3>Kai</h3>
+                    <p>Main Dancer, Sub Rapper</p>
+                </div>
+                <div class="member">
+                    <h3>Sehun</h3>
+                    <p>Lead Dancer, Sub Rapper</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Discography</h2>
+            <div class="discography">
+                <div class="album">
+                    <h3>XOXO (2013)</h3>
+                    <p>Growl, Wolf, XOXO</p>
+                </div>
+                <div class="album">
+                    <h3>EXODUS (2015)</h3>
+                    <p>Call Me Baby, Love Me Right</p>
+                </div>
+                <div class="album">
+                    <h3>EX'ACT (2016)</h3>
+                    <p>Monster, Lucky One</p>
+                </div>
+                <div class="album">
+                    <h3>The War (2017)</h3>
+                    <p>Ko Ko Bop, The Eve</p>
+                </div>
+                <div class="album">
+                    <h3>Don't Mess Up My Tempo (2018)</h3>
+                    <p>Tempo, Love Shot</p>
+                </div>
+                <div class="album">
+                    <h3>Obsession (2019)</h3>
+                    <p>Obsession, Jekyll</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Achievements</h2>
+            <p>EXO has won numerous awards, including:</p>
+            <ul>
+                <li>5 Daesang Awards at MAMA</li>
+                <li>2 Daesang Awards at Melon Music Awards</li>
+                <li>Best Korean Act at MTV Europe Music Awards</li>
+                <li>Album of the Year at Golden Disc Awards</li>
+            </ul>
+        </div>
+        
+        <footer>
+            <p>EXO Fan Website | Created for educational purposes，Jerry</p>
+        </footer>
+    </div>
+</body>
+</html>
